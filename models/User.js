@@ -29,7 +29,7 @@ const userSchema = new Schema({
                     type: String,
                     required: true,
                     enum: ['Admin', 'Formateur', 'Gestionnaire','Student'],
-                    default: 'Student'
+                    
                 },
     courses:[{
         type: Schema.Types.ObjectId,
